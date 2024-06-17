@@ -6,22 +6,10 @@ using System.Threading.Tasks;
 
 namespace GeometricShapes
 {
-    internal class Square
+    internal class Square : Rect
     {
-        public int Side1 { get; set; } = 0;
-
-        public int Perimeter()
+        public Square(int side1) : base(side1, side1)
         {
-            return Side1*4;
-        }
-        public int Area()
-        {
-            return Side1 * Side1;
-
-        }
-        public Square(int side1)
-        {
-            Side1 = side1;
         }
     }
 }

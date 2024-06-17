@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Quad q1 = new Quad(3,4,5,6);
-            Quad q2 = new Quad(11,12,13,14);
+            Quad q1 = new Quad(3, 4, 5, 6);
+            Quad q2 = new Quad(11, 12, 13, 14);
             Rect r1 = new Rect(5, 10);
             Square s1 = new Square(6);
 
